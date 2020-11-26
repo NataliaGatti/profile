@@ -1,0 +1,91 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Roboto', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #51A3A3;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+h2 {
+  color: #0db397;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+a {
+  color: #63535B;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #E8CCBF;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto;
+  width: 700px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: 4px 4px rgb(172, 163, 163);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#image-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 45px;
+}
+
+.btn-blue {
+  background-color: rgb(136, 99, 107);
+  border-radius: 10px;
+  padding: 15px;
+  color: beige;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
